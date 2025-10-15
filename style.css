@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff6b6b;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ff3b3b;
+}
+
+/* Products Grid */
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 0 20px 50px 20px;
+}
+
+.product {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 220px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+}
+
+.product p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Buy Now Button */
+.product a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.product a:hover {
+  background-color: #ff3b3b;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: #ff3b3b;
+}
